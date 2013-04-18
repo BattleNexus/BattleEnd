@@ -1,0 +1,17 @@
+battleend:
+    #How often to reset (in days)
+    time-to-reset: 14
+    #Whether players can kill the enderdragon more than once
+    #and get EXP for it. If more than 1 player kills a dragon, the only time
+    #EXP is not given is when all the players has killed the dragon atleast once
+    allowexprepeat: false
+    #Whether to save the next reset time in a MySQL database (useful for site timers!)
+    use-mysql: true
+    #Database info
+    database:
+        type: mysql
+        ip: 127.0.0.1
+        port: 3306
+        databasename: database
+        username: root
+        password: password

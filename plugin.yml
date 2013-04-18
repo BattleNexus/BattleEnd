@@ -1,0 +1,4 @@
+name: BattleEnd
+main: net.battlenexus.bukkit.battleend.main.BattleEnd
+version: 1.0.0
+description: Reset the end
